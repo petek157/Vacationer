@@ -14,6 +14,7 @@
 		1B24C8891EF5C10A001E5F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B24C8871EF5C10A001E5F2C /* LaunchScreen.storyboard */; };
 		1B24C8941EF5C10A001E5F2C /* VacationerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24C8931EF5C10A001E5F2C /* VacationerTests.swift */; };
 		1B24C89F1EF5C10A001E5F2C /* VacationerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24C89E1EF5C10A001E5F2C /* VacationerUITests.swift */; };
+		1B24C8AD1EF5CAA7001E5F2C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24C8AC1EF5CAA7001E5F2C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1B24C89A1EF5C10A001E5F2C /* VacationerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacationerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B24C89E1EF5C10A001E5F2C /* VacationerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationerUITests.swift; sourceTree = "<group>"; };
 		1B24C8A01EF5C10A001E5F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B24C8AC1EF5CAA7001E5F2C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1B24C87E1EF5C10A001E5F2C /* AppDelegate.swift */,
 				1B24C8801EF5C10A001E5F2C /* ViewController.swift */,
+				1B24C8AC1EF5CAA7001E5F2C /* Constants.swift */,
 				1B24C8821EF5C10A001E5F2C /* Main.storyboard */,
 				1B24C8851EF5C10A001E5F2C /* Assets.xcassets */,
 				1B24C8871EF5C10A001E5F2C /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				1B24C8811EF5C10A001E5F2C /* ViewController.swift in Sources */,
 				1B24C87F1EF5C10A001E5F2C /* AppDelegate.swift in Sources */,
+				1B24C8AD1EF5CAA7001E5F2C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5J8PH9GUR8;
 				INFOPLIST_FILE = Vacationer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = biz.p3media.Vacationer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5J8PH9GUR8;
 				INFOPLIST_FILE = Vacationer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = biz.p3media.Vacationer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
